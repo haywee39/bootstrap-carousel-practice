@@ -1,0 +1,62 @@
+/*FIRST MEDIA QUERY FOR THE LANDING PAGE  */
+@media (width < 1000px) {
+    .fgc{ 
+        font-size: 60px;
+        letter-spacing:2px;
+        line-height: 8vh; 
+    }
+    .zone-name{
+        font-size: 25px;
+        letter-spacing: 2px;
+        margin-bottom: 60px;
+        padding-left: 70px;
+    }
+    .slogan_box h1{
+        font-size: 55px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        line-height: 8vh;
+        /* padding-bottom: 160px; */
+    }
+
+
+}
+
+
+/*SECOND MEDIA QUERY FOR THE LANDING PAGE  */
+@media (width < 650px) {
+    .landing-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 20;
+        color: white;      
+       
+    }
+    
+    .fgc{ 
+        font-size: 40px;
+        letter-spacing:2px;
+        line-height: 6vh; 
+    }
+
+    .zone-name{
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+        padding-bottom: 50px;
+    }
+    
+    .slogan_box h1{
+        font-size: 35px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        line-height: 6vh;
+        /* padding-bottom: 160px; */
+    }
+    
+}
